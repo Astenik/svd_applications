@@ -1,11 +1,9 @@
 # svd_applications
 This repository contains several practical applications of Singular Value Decomposition (SVD) in data science and machine learning, implemented in Python.
-#Contents
-1. #Movie Recommender
-collaborative filtering system that combines Armenian films and Movielens data to suggest personalized movie recommendations using SVD.
+# Contents
 
 # 1. MOVIE RECOMMENDER
-#Description
+# Description
 This project builds a personalized movie recommendation system by combining the Movielens dataset with a curated list of Armenian films. The user provides ratings for movies they've seen, and the system recommends new titles using an SVD-based collaborative filtering model.
 
 #Instalation
