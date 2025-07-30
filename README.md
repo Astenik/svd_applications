@@ -6,7 +6,7 @@ This repository contains several practical applications of Singular Value Decomp
 # Description
 This project builds a personalized movie recommendation system by combining the Movielens dataset with a curated list of Armenian films. The user provides ratings for movies they've seen, and the system recommends new titles using an SVD-based collaborative filtering model.
 
-#Instalation
+# Instalation
 To run in Google Colab, install the following packages:
 
 !pip install numpy==1.24.4 scipy==1.10.1
@@ -17,13 +17,13 @@ Download the Movielens dataset:
 !wget https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 !unzip ml-latest-small.zip
 
-#Project structure
+# Project structure
 
-├── ml-latest-small/             # Movielens dataset
+├── ml-latest-small/              Movielens dataset
 │   ├── movies.csv
 │   └── ratings.csv
-├── recommender.py               # Core logic with all functions
-├── main.ipynb                   # Notebook or Colab script
+├── recommender.py               Core logic with all functions
+├── main.ipynb                    Notebook or Colab script
 └── README.md
 
 # How It Works
